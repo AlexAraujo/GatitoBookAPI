@@ -19,7 +19,6 @@
       mensagem="E-mail no formato incorreto"
     >
     </app-mensagem>
-    <br>
   </div>
   <div class="form-group">
     <input
@@ -35,7 +34,6 @@
       mensagem="Nome incorreto"
     >
     </app-mensagem>
-    <br>
   </div>
   <div class="form-group">
     <input
@@ -55,7 +53,6 @@
       *ngIf="novoUsuarioForm.get('userName')?.errors?.usuarioExistente"
       mensagem="Usuário já existe"
     ></app-mensagem>
-    <br>
   </div>
   <div class="form-group">
     <input
@@ -69,11 +66,9 @@
       mensagem="Senha deve ser diferente do usuário"
     >
     </app-mensagem>
-    <br>
   </div>
 
   <button class="btn btn-primary btn-block">Cadastro</button>
-  <br>
 </form>
-<br>
+
 <p>Já um usuário? <a [routerLink]="['']"> Faça Login</a></p>

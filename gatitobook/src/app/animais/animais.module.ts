@@ -6,9 +6,7 @@ import { ListaAnimaisComponent } from './lista-animais/lista-animais.component';
 
 
 @NgModule({
-  declarations: [
-    ListaAnimaisComponent
-  ],
+  declarations: [ListaAnimaisComponent],
   imports: [
     CommonModule,
     AnimaisRoutingModule
